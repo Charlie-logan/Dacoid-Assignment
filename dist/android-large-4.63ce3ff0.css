@@ -1,0 +1,542 @@
+.create-an-account, .time2 {
+  font-weight: 600;
+  position: relative;
+}
+
+.time2 {
+  letter-spacing: -.3px;
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  width: 74px;
+  display: inline-block;
+}
+
+.create-an-account {
+  font-size: inherit;
+  white-space: nowrap;
+  margin: 0;
+  font-family: inherit;
+}
+
+.create-an-account-wrapper, .time-container {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.create-an-account-wrapper {
+  padding: 0 0 0 var(--padding-11xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-roboto);
+  flex-direction: row;
+}
+
+.time-container {
+  gap: var(--gap-19xl);
+  flex-direction: column;
+}
+
+.cellular-connection-icon2 {
+  width: 17px;
+  height: 10.7px;
+  position: relative;
+}
+
+.cellular-connection-container {
+  padding: var(--padding-12xs) 0 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.wifi-icon2 {
+  width: 15.3px;
+  height: 11px;
+  position: relative;
+}
+
+.border2, .cap-icon2 {
+  mix-blend-mode: normal;
+  position: absolute;
+}
+
+.border2 {
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  opacity: .35;
+  border-radius: 2.67px;
+  width: 22px;
+  height: 11.3px;
+  top: 0;
+  right: 2.3px;
+}
+
+.cap-icon2 {
+  width: 1.3px;
+  height: 4px;
+  top: 3.7px;
+  right: 0;
+}
+
+.capacity2 {
+  background-color: var(--color-gray-300);
+  z-index: 1;
+  border-radius: 1.33px;
+  width: 18px;
+  height: 7.3px;
+  position: absolute;
+  top: 2px;
+  right: 4.3px;
+}
+
+.battery2 {
+  width: 24.3px;
+  height: 11.3px;
+  position: relative;
+}
+
+.frame-parent1 {
+  justify-content: flex-start;
+  gap: var(--gap-8xs);
+  flex-direction: row;
+}
+
+.frame-div, .frame-header, .frame-parent1 {
+  align-items: flex-start;
+  display: flex;
+}
+
+.frame-div {
+  padding: var(--padding-9xs) 0 0;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.frame-header {
+  justify-content: space-between;
+  align-self: stretch;
+  gap: var(--gap-xl);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+  font-family: var(--font-montserrat);
+  flex-direction: row;
+}
+
+.password-entry-child {
+  border-radius: var(--br-xs);
+  background-color: var(--gray-50);
+  width: 343px;
+  max-width: 100%;
+  height: 50px;
+  display: none;
+  position: relative;
+}
+
+.first-name {
+  z-index: 1;
+  min-width: 68px;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+}
+
+.password-entry, .password-entry-item, .password-entry1 {
+  border-radius: var(--br-xs);
+  background-color: var(--gray-50);
+}
+
+.password-entry {
+  padding: var(--padding-lg) var(--padding-xl) var(--padding-mid);
+  box-sizing: border-box;
+  white-space: nowrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.password-entry-item, .password-entry1 {
+  height: 50px;
+}
+
+.password-entry1 {
+  padding: var(--padding-lg) var(--padding-xl) var(--padding-mid);
+  box-sizing: border-box;
+  font-family: var(--font-montserrat);
+  font-weight: 600;
+  font-size: var(--font-size-xs);
+  color: var(--gray-100);
+  border: 0;
+  outline: 0;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  width: 100%;
+  min-width: 206px;
+  display: flex;
+}
+
+.password-entry-item {
+  width: 343px;
+  max-width: 100%;
+  display: none;
+  position: relative;
+}
+
+.email {
+  z-index: 1;
+  min-width: 35px;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+}
+
+.password-entry2, .password-entry3 {
+  background-color: var(--gray-50);
+  border-radius: var(--br-xs);
+  padding: var(--padding-lg) var(--padding-xl) var(--padding-mid);
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  display: flex;
+}
+
+.password-entry2 {
+  max-width: 100%;
+}
+
+.password-entry3 {
+  font-family: var(--font-montserrat);
+  font-weight: 600;
+  font-size: var(--font-size-xs);
+  color: var(--gray-100);
+  border: 0;
+  outline: 0;
+  width: 100%;
+  min-width: 206px;
+  height: 50px;
+}
+
+.group-input {
+  width: 22px;
+  height: 22px;
+  margin: 0;
+  position: relative;
+}
+
+.by-proceeding-i {
+  color: var(--gray-100);
+}
+
+.tc {
+  text-decoration: underline;
+}
+
+.span {
+  color: #eb1754;
+}
+
+.and {
+  color: var(--gray-100);
+  white-space: pre-wrap;
+}
+
+.privacy-policy {
+  text-decoration: underline;
+}
+
+.by-proceeding-i-container {
+  flex: 1;
+  min-width: 203px;
+  font-weight: 500;
+  line-height: 177.9%;
+  display: inline-block;
+  position: relative;
+}
+
+.instance-parent {
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  gap: var(--gap-5xs);
+  color: var(--color-cornflowerblue-200);
+  flex-flow: wrap;
+  display: flex;
+}
+
+.email-entry, .email-entry-wrapper {
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.email-entry {
+  justify-content: flex-start;
+  gap: var(--gap-5xl);
+  flex-direction: column;
+  flex: 1;
+}
+
+.email-entry-wrapper {
+  padding: 0 var(--padding-11xs-6) 77px var(--padding-11xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--gray-100);
+  font-family: var(--font-montserrat);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+}
+
+.rectangle2 {
+  background-color: var(--color-white);
+  width: 375px;
+  max-width: 100%;
+  height: 44px;
+  display: none;
+  position: relative;
+}
+
+.or-label-child {
+  border-radius: var(--br-xs);
+  cursor: pointer;
+  background: linear-gradient(270deg, #7b91ff, #95beff);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  margin: 0 !important;
+}
+
+.create-an-account1 {
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  font-family: var(--font-montserrat);
+  color: var(--color-white);
+  text-align: center;
+  z-index: 1;
+  width: 153px;
+  display: inline-block;
+  position: relative;
+}
+
+.or-label, .reports {
+  align-self: stretch;
+  position: relative;
+}
+
+.or-label {
+  cursor: pointer;
+  padding: var(--padding-mini) var(--padding-xl);
+  white-space: nowrap;
+  background-color: #0000;
+  border: 0;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+  display: flex;
+}
+
+.reports {
+  border-top: .5px solid var(--gray-100);
+  box-sizing: border-box;
+  height: .5px;
+}
+
+.reports-wrapper {
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  min-width: 102px;
+  display: flex;
+}
+
+.line-div, .or {
+  position: relative;
+}
+
+.or {
+  min-width: 15px;
+  font-weight: 500;
+  display: inline-block;
+}
+
+.line-div {
+  border-top: .5px solid var(--gray-100);
+  box-sizing: border-box;
+  align-self: stretch;
+  height: .5px;
+}
+
+.frame-parent2, .line-wrapper {
+  align-items: flex-start;
+  display: flex;
+}
+
+.line-wrapper {
+  padding: var(--padding-4xs) 0 0;
+  box-sizing: border-box;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  min-width: 102px;
+}
+
+.frame-parent2 {
+  padding: 0 0 var(--padding-10xs);
+  justify-content: center;
+  align-self: stretch;
+  gap: var(--gap-5xs);
+  flex-flow: wrap;
+}
+
+.sign-up-button-child {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.flat-color-iconsgoogle {
+  z-index: 1;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+  top: 13px;
+  left: 13px;
+  overflow: hidden;
+}
+
+.sign-up-button, .sign-up-button-item {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  position: relative;
+}
+
+.sign-up-button-item {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.vector-icon {
+  z-index: 1;
+  width: 8.9px;
+  height: 17px;
+  position: absolute;
+  top: 13px;
+  left: 18px;
+}
+
+.sign-up-button1 {
+  border-radius: var(--br-5xs);
+  border: 1px solid var(--gray-100);
+  box-sizing: border-box;
+  width: 44px;
+  height: 44px;
+  position: relative;
+}
+
+.frame-wrapper1, .sign-up-button-parent {
+  flex-direction: row;
+  align-items: flex-start;
+  display: flex;
+}
+
+.sign-up-button-parent {
+  justify-content: flex-start;
+  gap: var(--gap-lg);
+}
+
+.frame-wrapper1 {
+  padding: 0 var(--padding-2xl) var(--padding-9xs) var(--padding-xl);
+  justify-content: center;
+  align-self: stretch;
+}
+
+.login {
+  color: #819cff;
+  text-decoration: underline;
+}
+
+.already-have-an-container {
+  cursor: pointer;
+  font-weight: 500;
+  position: relative;
+}
+
+.forgot-password-link {
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  padding: 0 74px;
+  display: flex;
+}
+
+.android-large-4-inner, .or-label-parent {
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.or-label-parent {
+  justify-content: flex-start;
+  gap: var(--gap-3xl);
+  flex-direction: column;
+  flex: 1;
+}
+
+.android-large-4-inner {
+  padding: 0 var(--padding-11xs-6) 0 var(--padding-11xs);
+  box-sizing: border-box;
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--black);
+  font-family: var(--font-montserrat);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+}
+
+.android-large-4 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  padding: var(--padding-xs) var(--padding-mini-4) var(--padding-10xl) var(--padding-sm);
+  box-sizing: border-box;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: var(--gap-25xl);
+  letter-spacing: normal;
+  flex-direction: column;
+  width: 100%;
+  line-height: normal;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+/*# sourceMappingURL=android-large-4.63ce3ff0.css.map */

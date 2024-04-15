@@ -1,0 +1,242 @@
+.android-large-2-child {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  bottom: 44px;
+  right: 16px;
+  margin: 0 !important;
+}
+
+.time1 {
+  letter-spacing: -.3px;
+  flex-shrink: 0;
+  width: 54px;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+}
+
+.cellular-connection-icon1 {
+  width: 17px;
+  height: 10.7px;
+  position: relative;
+}
+
+.connection-status {
+  padding: var(--padding-12xs) 0 0;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.wifi-icon1 {
+  width: 15.3px;
+  height: 11px;
+  position: relative;
+}
+
+.border1, .cap-icon1 {
+  mix-blend-mode: normal;
+  position: absolute;
+}
+
+.border1 {
+  border: 1px solid var(--color-gray-300);
+  box-sizing: border-box;
+  opacity: .35;
+  border-radius: 2.67px;
+  width: 22px;
+  height: 11.3px;
+  top: 0;
+  right: 2.3px;
+}
+
+.cap-icon1 {
+  width: 1.3px;
+  height: 4px;
+  top: 3.7px;
+  right: 0;
+}
+
+.capacity1 {
+  background-color: var(--color-gray-300);
+  z-index: 1;
+  border-radius: 1.33px;
+  width: 18px;
+  height: 7.3px;
+  position: absolute;
+  top: 2px;
+  right: 4.3px;
+}
+
+.battery1 {
+  width: 24.3px;
+  height: 11.3px;
+  position: relative;
+}
+
+.wifi-indicator {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-8xs);
+  flex-direction: row;
+  display: flex;
+}
+
+.skip1 {
+  white-space: nowrap;
+  cursor: pointer;
+  min-width: 36px;
+  font-weight: 500;
+  text-decoration: underline;
+  display: inline-block;
+  position: relative;
+}
+
+.image-container {
+  padding: 0 var(--padding-11xs) 0 var(--padding-6xs);
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.wifi-indicator-parent {
+  gap: var(--gap-base-7);
+  flex-direction: column;
+}
+
+.connection-status-parent, .frame-container, .wifi-indicator-parent {
+  justify-content: flex-start;
+  align-items: flex-start;
+  display: flex;
+}
+
+.connection-status-parent {
+  gap: var(--gap-8xs);
+  flex-direction: row;
+}
+
+.frame-container {
+  padding: var(--padding-9xs) 0 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-cornflowerblue-100);
+  flex-direction: column;
+}
+
+.android-large-2-inner, .time-group {
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+  display: flex;
+}
+
+.time-group {
+  justify-content: space-between;
+  gap: var(--gap-xl);
+  flex: 1;
+}
+
+.android-large-2-inner {
+  padding: 0 2.4px 0 var(--padding-10xs);
+  box-sizing: border-box;
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-gray-300);
+  font-family: var(--font-montserrat);
+  justify-content: flex-end;
+  align-self: stretch;
+}
+
+.image-16-icon {
+  object-fit: cover;
+  flex: 1;
+  max-width: 100%;
+  height: 234.6px;
+  position: relative;
+  overflow: hidden;
+}
+
+.image-16-wrapper {
+  box-sizing: border-box;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+  padding: 0 0 16.4px;
+  display: flex;
+}
+
+.rectangle1 {
+  background-color: var(--color-white);
+  z-index: 3;
+  width: 375px;
+  max-width: 100%;
+  height: 44px;
+  display: none;
+  position: relative;
+}
+
+.get-burn {
+  box-sizing: border-box;
+  padding-right: var(--padding-xl);
+  width: 113px;
+  font-weight: 600;
+  display: inline-block;
+  position: relative;
+}
+
+.lets-keep-burning {
+  font-size: var(--font-size-base);
+  color: var(--color-gray-200);
+  align-self: stretch;
+  font-weight: 500;
+  position: relative;
+}
+
+.get-burn-parent {
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: var(--gap-mini);
+  flex-direction: column;
+  flex: 1;
+  max-width: 100%;
+  display: flex;
+}
+
+.android-large-2, .get-burn-label {
+  box-sizing: border-box;
+  display: flex;
+}
+
+.get-burn-label {
+  padding: 0 var(--padding-9xs) 0 var(--padding-8xs);
+  text-align: left;
+  font-size: var(--font-size-xl);
+  color: var(--black);
+  font-family: var(--font-montserrat);
+  flex-direction: row;
+  justify-content: flex-end;
+  align-self: stretch;
+  align-items: flex-start;
+  max-width: 100%;
+}
+
+.android-large-2 {
+  border-radius: var(--br-3xs);
+  background-color: var(--color-gray-100);
+  padding: var(--padding-xs) var(--padding-xs) 202px var(--padding-2xs);
+  letter-spacing: normal;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  gap: 92px;
+  width: 100%;
+  line-height: normal;
+  position: relative;
+  overflow: hidden;
+}
+/*# sourceMappingURL=android-large-2.b3a9862f.css.map */
